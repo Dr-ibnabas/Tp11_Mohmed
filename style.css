@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", Arial, sans-serif;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  border-bottom: 2px solid white;
+}
+.logo {
+  margin-top: 20px;
+  margin-left: 10%;
+  color: white;
+}
+.menu {
+  margin-top: 20px;
+  margin-right: 50px;
+}
+.menu a {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+.encadrement {
+  background-color: #c8a97e;
+  border-radius: 5px;
+}
+.container {
+  background-image: url("bg_1.webp");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
