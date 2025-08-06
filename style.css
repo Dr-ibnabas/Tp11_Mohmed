@@ -151,3 +151,18 @@ header {
   font-weight: bold;
   color: #c5a46d;
 }
+.statistique {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.sta-number {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #c5a46d;
+}
+.sta-text {
+  line-height: 3;
+  margin-right: 20%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #444;
+}
